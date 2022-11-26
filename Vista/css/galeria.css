@@ -1,0 +1,26 @@
+h1{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+div.Galeria{
+	margin: 10px 20px;
+	box-shadow: 0 4px 8px 0  lightskyblue,0 6px 20px rgba(0, 0, 0, 0.19);
+	float: left;
+	width: 350px;
+}
+div.Galeria img{
+	width: 100%;
+	height: auto;
+
+}
+div.Galeria:hover{
+	border: 1px solid lightcoral;
+	transform: rotate(-3deg);
+
+}
+div.pie{
+	text-align: center;
+	font-size: 24px;
+	padding: 10px;
+}
